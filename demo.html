@@ -15,46 +15,30 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
-    <style>
-
-        /* .carousel-item{
-    height: 500px;
-}
-.carousel-item img{
-    height: 500px;
-}
-#demo{
-    position: absolute;
-    width: 100%;
-    left: 0;
-}
-.my_carousel{
-    margin-top: -100px;
-}
-.my_nav{
-    z-index: 9999;
-}
-.header{
-    width:1000px;
-    left:20%;
-} */
-</style>
 </head>
 
 <body>
     <div class="header">
-        <nav class="my_nav navbar navbar-expand-lg navbar-inverse">
+        <nav class="my_nav navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
                 <a class="navbar-brand" href="#">MAVA Partners</a>
                 <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button> -->
-                <button id="nav-toggle-button" type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"
+                <!-- <button id="nav-toggle-button" type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
+                </button> -->
+                <button class="navbar-toggler" type="" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="">
+                    <span class="navbar-toggler-icon">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -102,7 +86,7 @@
                     <h3 style="color:rgb(255, 255, 255);text-shadow: 0 0 3px rgb(226, 54, 54);"><b>Los Angeles</b></h3>
                     <p style="color:rgb(255, 255, 255);text-shadow: 0 0 3px rgb(226, 54, 54);">We had such a great time
                         in LA!</p>
-                        <a class="btn btn-primary" href="#" role="button">SignUp Today</a>
+                    <a class="btn btn-primary" href="#" role="button">SignUp Today</a>
                 </div>
             </div>
             <div class="carousel-item">
@@ -111,7 +95,7 @@
                     <h3 style="color:rgb(243, 241, 241);text-shadow: 0 0 3px rgb(226, 54, 54);"><b>Los Angeles</b></h3>
                     <p style="color:rgb(255, 255, 255);text-shadow: 0 0 3px rgb(226, 54, 54);">We had such a great time
                         in LA!</p>
-                        <a class="btn btn-primary" href="#" role="button">SignUp Today</a>
+                    <a class="btn btn-primary" href="#" role="button">SignUp Today</a>
                 </div>
             </div>
             <div class="carousel-item">
@@ -120,7 +104,7 @@
                     <h3 style="color:rgb(255, 254, 254);text-shadow: 0 0 3px rgb(235, 34, 34);"><b>Los Angeles</b></h3>
                     <p style="color:rgb(255, 255, 255);text-shadow: 0 0 3px rgb(214, 36, 36);">We had such a great time
                         in LA!</p>
-                        <a class="btn btn-primary" href="#" role="button">SignUp Today</a>
+                    <a class="btn btn-primary" href="#" role="button">SignUp Today</a>
                 </div>
             </div>
         </div>
@@ -163,74 +147,150 @@
                 </div>
                 <button type="submit" class="btn btn-success btn-submit">Submit</button>
                 <br><br>
-                <div class="row h-100 justify-content-center align-items-center bt">
-                    <div><a class="fa fa-twitter"> Twitter</a>&nbsp; &nbsp; &nbsp;
+                <div class="container">
+                    <div class="row justify-content-center align-items-center bt">
+                        <div><a href="#" class="fa fa-twitter"></a>&nbsp; &nbsp; &nbsp;
+                        </div>
+                        <div><a href="#" class="fa fa-facebook"></a>&nbsp; &nbsp; &nbsp;</div>
+                        <div><a href="#" class="fa fa-google-plus"></a>&nbsp; &nbsp; &nbsp;</div>
                     </div>
-                    <div><a href="#" class="fa fa-facebook"> Facebook</a>&nbsp; &nbsp; &nbsp;</div>
-                    <div><a href="#" class="fa fa-google-plus"> Google+</a>&nbsp; &nbsp; &nbsp;</div>
+                </div>
             </form>
         </div>
     </div>
     </div>
     <!-- Cards in the design -->
-    <div class="row justify-content-center align-items-center">
-        <div class="card col-sm-3 card-style">
-            <div class="card-header text-center">Free</div>
-            <div class="card-body">
-                <h1 class="text">$0 <span class="text-secondary"> / mo</span></h1>
-                <p class="card-text">10 users included<br>2GB Storage<br>Email Support<br>Help centre access</p>
-                <div class="container"><a class="btn btn-outline-primary" href="#" role="button">SignUp For Free</a></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-12 col-md-4 col-lg-4 ">
+                <div class="card card-style">
+                    <div class="card-header text-center">Free</div>
+                    <div class="card-body">
+                        <h1 class="text">$0 <span class="text-secondary"> / mo</span></h1>
+                        <p class="card-text">10 users included<br>2GB Storage<br>Email Support<br>Help centre access</p>
+                        <div class="container"><a class="btn btn-primary" href="#" role="button">SignUp For
+                                Free</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-12 col-md-4 col-lg-4 ">
+                <div class="card card-style">
+                    <div class="card-header text-center">Pro</div>
+                    <div class="card-body">
+                        <h1 class="text">$15 <span class="text-secondary"> / mo</span></h1>
+                        <p class="card-text">10 users included<br>2GB Storage<br>Email Support<br>Help centre access</p>
+                        <div class="container"><a class="btn btn-primary" href="#" role="button">Get Started</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-12 col-md-4 col-lg-4 ">
+                <div class="card card-style">
+                    <div class="card-header text-center">Enterprise</div>
+                    <div class="card-body">
+                        <h1 class="text">$29 <span class="text-secondary"> / mo</span></h1>
+                        <p class="card-text">10 users included<br>2GB Storage<br>Email Support<br>Help centre access</p>
+                        <div class="container"><a class="btn btn-primary" href="#" role="button">Contact Us</a></div>
+                    </div>
+                </div>
             </div>
 
-        </div>
-        <div class="card col-sm-3 card-style">
-            <div class="card-header text-center">Pro</div>
-            <div class="card-body">
-                <h1 class="text">$15 <span class="text-secondary"> / mo</span></h1>
-                <p class="card-text">10 users included<br>2GB Storage<br>Email Support<br>Help centre access</p>
-                <div class="container"><a class="btn btn-primary" href="#" role="button">Get Started</a></div>
+            <div class=" col-sm-6 col-12 col-md-4 col-lg-4 ">
+                <div class="card card-style">
+                    <div class="card-header text-center">Free</div>
+                    <div class="card-body">
+                        <h1 class="text">$0 <span class="text-secondary"> / mo</span></h1>
+                        <p class="card-text">10 users included<br>2GB Storage<br>Email Support<br>Help centre access</p>
+                        <div class="container"><a class="btn btn-primary" href="#" role="button">Get Started</a></div>
+                    </div>
+                </div>
             </div>
-
-        </div>
-        <div class="card col-sm-3 card-style">
-            <div class="card-header text-center">Enterprise</div>
-            <div class="card-body">
-                <h1 class="text">$29 <span class="text-secondary"> / mo</span></h1>
-                <p class="card-text">10 users included<br>2GB Storage<br>Email Support<br>Help centre access</p>
-                <div class="container"><a class="btn btn-primary" href="#" role="button">Contact Us</a></div>
+            <div class="col-sm-6 col-12 col-md-4 col-lg-4 ">
+                <div class="card card-style">
+                    <div class="card-header text-center">Pro</div>
+                    <div class="card-body">
+                        <h1 class="text">$15 <span class="text-secondary"> / mo</span></h1>
+                        <p class="card-text">10 users included<br>2GB Storage<br>Email Support<br>Help centre access</p>
+                        <div class="container"><a class="btn btn-primary" href="#" role="button">Get Started</a></div>
+                    </div>
+                </div>
             </div>
-
+            <div class="col-sm-6 col-12 col-md-4 col-lg-4 ">
+                <div class="card card-style">
+                    <div class="card-header text-center">Enterprise</div>
+                    <div class="card-body">
+                        <h1 class="text">$29 <span class="text-secondary"> / mo</span></h1>
+                        <p class="card-text">10 users included<br>2GB Storage<br>Email Support<br>Help centre access</p>
+                        <div class="container"><a class="btn btn-primary" href="#" role="button">Contact Us</a></div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="row justify-content-center align-items-center">
-        <div class="card col-sm-3 card-style">
-            <div class="card-header text-center">Free</div>
-            <div class="card-body">
-                <h1 class="text">$0 <span class="text-secondary"> / mo</span></h1>
-                <p class="card-text">10 users included<br>2GB Storage<br>Email Support<br>Help centre access</p>
-                <div class="container"><a class="btn btn-primary" href="#" role="button">Get Started</a></div>
-            </div>
 
-        </div>
-        <div class="card col-sm-3 card-style">
-            <div class="card-header text-center">Pro</div>
-            <div class="card-body">
-                <h1 class="text">$15 <span class="text-secondary"> / mo</span></h1>
-                <p class="card-text">10 users included<br>2GB Storage<br>Email Support<br>Help centre access</p>
-                <div class="container"><a class="btn btn-primary" href="#" role="button">Get Started</a></div>
-            </div>
 
-        </div>
-        <div class="card col-sm-3 card-style">
-            <div class="card-header text-center">Enterprise</div>
-            <div class="card-body">
-                <h1 class="text">$29 <span class="text-secondary"> / mo</span></h1>
-                <p class="card-text">10 users included<br>2GB Storage<br>Email Support<br>Help centre access</p>
-                <div class="container"><a class="btn btn-primary" href="#" role="button">Contact Us</a></div>
-            </div>
+    <footer class="page-footer font-small blue pt-2">
 
+      <div class="footer_style">
+            <div class="container-fluid text-center text-md-left">
+        
+              <div class="row">
+        
+              
+                <div class="col-md-6 mt-md-0 pt-4 mt-3">
+        
+                  <h5 class="text-uppercase">Mava Partners</h5>
+                  <p>We are a group of young professionals who are proficient in Bootstrap.</p>
+        
+                </div>
+          
+        
+                <!-- <hr class="clearfix w-100 d-md-none pb-3"> -->
+        
+                <div class="col-md-3 mb-md-0 pt-4 mb-3">
+        
+                    <h5 class="text-uppercase">Useful Links</h5>
+        
+                    <ul class="list-unstyled">
+                      <li>
+                        <a href="#!">About Us</a>
+                      </li>
+                      <li>
+                        <a href="#!">Career</a>
+                      </li>
+                      <li>
+                        <a href="#!">Contact Us</a>
+                      </li>
+                    </ul>
+        
+                  </div>
+                  
+                  <div class="col-md-3 mb-md-0 pt-4 mb-3">
+        
+                    <h5 class="text-uppercase">Address</h5>
+        
+                    <ul class="list-unstyled">
+                      <li>
+                        Bootstrappers
+                      </li>
+                      <li>
+                        Kannur
+                      </li>
+                      <li>
+                        Kerala
+                      </li>
+                      <li>
+                        +91-9847059251
+                      </li>
+                    </ul>
+        
+                  </div>
+                </div>
+            </div>
+            <div class="footer-copyright text-center py-3">© 2018 Copyright:
+              <a href="https://mdbootstrap.com/bootstrap-tutorial/"> MAVAPartners.com</a>
+            </div>
         </div>
-    </div>
+          </footer>
 </body>
 
 </html>

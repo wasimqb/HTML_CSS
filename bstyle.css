@@ -11,7 +11,8 @@
     top: 10px;
     right: 5%;
     z-index: 9999;
-    background: black;
+    border: 0px;
+    background: transparent;
 }
 .navbar-nav .nav-link {
     color: white;
@@ -23,15 +24,15 @@
     color: #d4d9dd;
 }
 a:hover {
-    color: #ffffff;
+    color: #4e5258;
 }
-.navbar-toggler {
-    background-color: white;
-    height:25px;
+.fa:hover{
+    color: black;
 }
-.navbar-collapse {
-    background: black;
+#navbarSupportedContent a:hover{
+    color: rgb(211, 46, 24);
 }
+
 .carousel-caption{
     font-size: 150%;
 }
@@ -55,27 +56,33 @@ a:hover {
     margin-top: 10px;
 }
 .card-style{
-    margin-right: 10px;
     margin-top: 10px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 .card-body{
     text-align: center;
 }
+.btn-primary:hover{
+    background-color: white;
+    color: rgb(0, 81, 255);
+}
 
-@media screen and (min-width:576px){
+@media screen and (min-width:854px){
     .btn-submit{
         margin-left: 17.5%;
     }
 }
 
-
+.col-form-label{
+    min-width: 80px;
+}
 
 .fa {
     padding: 10px;
     font-size: 30px;
     text-align: center;
     text-decoration: none;
+    min-width: 41px;
 }
 
 /* Add a hover effect if you want */
@@ -102,4 +109,8 @@ a:hover {
 }
 .bt{
     margin-bottom: 5px;
+}
+
+.footer_style{
+    background:lightgray; 
 }
